@@ -1,0 +1,77 @@
+::-webkit-scrollbar {width: 11px;height: 40px;}
+::-webkit-scrollbar-corner {background-image: url("%1/corner.png");background-repeat: no-repeat;}
+::-webkit-scrollbar-corner:window-inactive {background-image: url("%1/corner-inactive.png");}
+::-webkit-resizer {background-image: url("%1/resizer.png");background-repeat: no-repeat;background-position: bottom right;}
+::-webkit-resizer:window-inactive {background-image: url("%1/resizer-inactive.png");}
+::-webkit-scrollbar-track-piece:disabled {display: none !important;}
+::-webkit-scrollbar-button:disabled {display: none !important;}
+::-webkit-scrollbar-track:disabled {margin: 8px;}        
+::-webkit-scrollbar:vertical {-webkit-border-image: url("%1/vertical-button.png") 2 0 2 0;border-color: transparent;border-width: 2px 0;background-image: url("%1/vertical-button-background.png");background-repeat: repeat-y;}
+::-webkit-scrollbar:vertical:corner-present {border-bottom-width: 0;}
+::-webkit-scrollbar-track:vertical:disabled:corner-present {margin-bottom: 5px;}
+::-webkit-scrollbar:vertical:window-inactive {-webkit-border-image: url("%1/vertical-button-inactive.png") 2 0 2 0;background-image: url("%1/vertical-button-background-inactive.png");}
+::-webkit-scrollbar-thumb:vertical {-webkit-border-image: url("%1/vertical-thumb.png") 8 0 8 0;border-color: transparent;border-width: 8px 0;min-height: 8px;}
+::-webkit-scrollbar-thumb:vertical:hover {-webkit-border-image: url("%1/vertical-thumb-hover.png") 8 0 8 0;}
+::-webkit-scrollbar-thumb:vertical:active {-webkit-border-image: url("%1/vertical-thumb-active.png") 8 0 8 0;}
+::-webkit-scrollbar-thumb:vertical:window-inactive {-webkit-border-image: url("%1/vertical-thumb-inactive.png") 8 0 8 0;}
+::-webkit-scrollbar-track-piece:vertical:start:no-button,
+.double-end::-webkit-scrollbar-track-piece:vertical:start,
+.none::-webkit-scrollbar-track-piece:vertical:start {margin-top: 8px;}
+::-webkit-scrollbar-track-piece:vertical:end:no-button,
+.double-start::-webkit-scrollbar-track-piece:vertical:end,
+.none::-webkit-scrollbar-track-piece:vertical:end {margin-bottom: 8px;}
+::-webkit-scrollbar-track-piece:vertical:end:no-button:corner-present,
+.double-start::-webkit-scrollbar-track-piece:vertical:end:corner-present,
+.none::-webkit-scrollbar-track-piece:vertical:end:corner-present {margin-bottom: 5px;}
+:not(.none):not(.double-end)::-webkit-scrollbar-track-piece:vertical:start:single-button,
+:not(.none):not(.double-end)::-webkit-scrollbar-track-piece:vertical:start:double-button,
+.single::-webkit-scrollbar-track-piece:vertical:start,
+.double-start::-webkit-scrollbar-track-piece:vertical:start,
+.double-both::-webkit-scrollbar-track-piece:vertical:start {margin-top: -8px;}
+:not(.none):not(.double-start)::-webkit-scrollbar-track-piece:vertical:end:single-button,
+:not(.none):not(.double-start)::-webkit-scrollbar-track-piece:vertical:end:double-button,
+.single::-webkit-scrollbar-track-piece:vertical:end,
+.double-end::-webkit-scrollbar-track-piece:vertical:end,
+.double-both::-webkit-scrollbar-track-piece:vertical:end {margin-bottom: -8px;}
+::-webkit-scrollbar-track:vertical:disabled {-webkit-border-image: url("%1/vertical-track-disabled.png") 8 0 8 0;border-color: transparent;border-width: 8px 0;}
+::-webkit-scrollbar-track-piece:vertical:decrement {-webkit-border-image: url("%1/vertical-track.png") 8 0 8 0;border-color: transparent;border-width: 8px 0 0 0;}
+::-webkit-scrollbar-track-piece:vertical:decrement:hover {-webkit-border-image: url("%1/vertical-track-hover.png") 8 0 8 0;}
+::-webkit-scrollbar-track-piece:vertical:decrement:active {-webkit-border-image: url("%1/vertical-track-active.png") 8 0 8 0;}
+::-webkit-scrollbar-track-piece:vertical:increment {-webkit-border-image: url("%1/vertical-track.png") 8 0 8 0;border-color: transparent;border-width: 0 0 8px 0;}
+::-webkit-scrollbar-track-piece:vertical:increment:hover {-webkit-border-image: url("%1/vertical-track-hover.png") 8 0 8 0;}
+::-webkit-scrollbar-track-piece:vertical:increment:active {-webkit-border-image: url("%1/vertical-track-active.png") 8 0 8 0;}
+::-webkit-scrollbar-button:vertical {height: 8px;-webkit-border-image: url("%1/vertical-button.png") 2 0 2 0;border-color: transparent;border-width: 2px 0;}
+::-webkit-scrollbar-button:vertical:decrement {background-image: url("%1/vertical-decrement-arrow.png"), url("%1/vertical-button-background.png");background-repeat: no-repeat, repeat-y;background-position: 3px 3px, 0 0;}
+::-webkit-scrollbar-button:vertical:decrement:hover {-webkit-border-image: url("%1/vertical-button-hover.png") 2 0 2 0;background-image: url("%1/vertical-decrement-arrow.png"), url("%1/vertical-button-background-hover.png");}
+::-webkit-scrollbar-button:vertical:decrement:active {-webkit-border-image: url("%1/vertical-button-active.png") 2 0 2 0;background-image: url("%1/vertical-decrement-arrow.png"), url("%1/vertical-button-background-active.png");}
+::-webkit-scrollbar-button:vertical:decrement:window-inactive {-webkit-border-image: url("%1/vertical-button-inactive.png") 2 0 2 0;background-image: url("%1/vertical-decrement-arrow.png"), url("%1/vertical-button-background-inactive.png");}
+::-webkit-scrollbar-button:vertical:increment {background-image: url("%1/vertical-increment-arrow.png"), url("%1/vertical-button-background.png");background-repeat: no-repeat, repeat-y;background-position: 3px 8px, 0 0;}
+::-webkit-scrollbar-button:vertical:increment:hover {-webkit-border-image: url("%1/vertical-button-hover.png") 2 0 2 0;background-image: url("%1/vertical-increment-arrow.png"), url("%1/vertical-button-background-hover.png");}
+::-webkit-scrollbar-button:vertical:increment:active {-webkit-border-image: url("%1/vertical-button-active.png") 2 0 2 0;background-image: url("%1/vertical-increment-arrow.png"), url("%1/vertical-button-background-active.png");}
+::-webkit-scrollbar-button:vertical:increment:window-inactive {-webkit-border-image: url("%1/vertical-button-inactive.png") 2 0 2 0;background-image: url("%1/vertical-increment-arrow.png"), url("%1/vertical-button-background-inactive.png");}
+:not(.single)::-webkit-scrollbar-button:double-button:vertical:start:decrement,
+.double-start::-webkit-scrollbar-button:vertical:start:decrement,
+.double-both::-webkit-scrollbar-button:vertical:start:decrement {height: 8px;border-bottom-width: 0;background-position: 3px 3px, 0 0;}
+:not(.single)::-webkit-scrollbar-button:double-button:vertical:start:increment,
+.double-start::-webkit-scrollbar-button:vertical:start:increment,
+.double-both::-webkit-scrollbar-button:vertical:start:increment {background-position: 3px 4px, 0 0;}
+:not(.single)::-webkit-scrollbar-button:double-button:vertical:end:decrement,
+.double-end::-webkit-scrollbar-button:vertical:end:decrement,
+.double-both::-webkit-scrollbar-button:vertical:end:decrement {background-position: 3px 8px, 0 0;}
+:not(.single)::-webkit-scrollbar-button:double-button:vertical:end:increment,
+.double-end::-webkit-scrollbar-button:vertical:end:increment,
+.double-both::-webkit-scrollbar-button:vertical:end:increment {height: 8px;border-top-width: 0;background-position: 3px 4px, 0 0;}
+::-webkit-scrollbar-button:vertical:end:increment:corner-present {border-bottom-width: 0;height: 5px;}
+:not(.single)::-webkit-scrollbar-button:double-button:vertical:end:increment:corner-present,
+.double-end::-webkit-scrollbar-button:vertical:end:increment:corner-present,
+.double-both::-webkit-scrollbar-button:vertical:end:increment:corner-present {height: 5px;}
+.single::-webkit-scrollbar-button:start:decrement,
+.single::-webkit-scrollbar-button:end:increment {display: block;}
+.single::-webkit-scrollbar-button:start:increment,
+.single::-webkit-scrollbar-button:end:decrement {display: none;}
+.double-end::-webkit-scrollbar-button:start {display: none;}
+.double-end::-webkit-scrollbar-button:end {display: block;}
+.double-start::-webkit-scrollbar-button:start {display: block;}
+.double-start::-webkit-scrollbar-button:end {display: none;}
+.double-both::-webkit-scrollbar-button {display: block;}
+.none::-webkit-scrollbar-button {display: none;}
